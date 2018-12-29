@@ -4,16 +4,23 @@
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <nuxt-link
-              to="/"
-              class="navbar-item has-text-white">
-              <font size="5"><b class="holidays-font">Holidays Inc.</b></font>
-            </nuxt-link>
+            <div class="columns is-mobile">
+              <div class="column is-6 is-mobile"/>
+              <nuxt-link
+                to="/"
+                class="navbar-item has-text-white">
+                <!-- v-ifでモバイル・タブレット画面になったら中央寄せ -->
+                <font size="5"><b
+                  class="holidays-font is-vcentered">Holidays Inc.</b>
+                </font>
+              </nuxt-link>
+            </div>
           </div>
           <div
             id="navbarMenuHeroA"
             class="navbar-menu">
             <div class="navbar-end">
+              <!-- v-ifでモバイル・タブレット画面になったらハンバーガーメニュー -->
               <nuxt-link
                 to="/profile"
                 class="navbar-item">
