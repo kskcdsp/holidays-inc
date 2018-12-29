@@ -13,9 +13,9 @@
             class="navbar-menu">
             <div class="navbar-end">
               <a class="navbar-item">
-                <font size="4"><b class="button is-outlined is-white has-text-white">Profile</b></font>
+                <font size="4"><b class="button is-outlined is-white has-text-white header-button-font">Profile</b></font>
               </a>
-              <a class="navbar-item has-text-white">
+              <a class="navbar-item has-text-white header-button-font">
                 <font size="4"><b class="button is-outlined is-white">Contact</b></font>
               </a>
             </div>
@@ -29,5 +29,10 @@
 <style>
 .header-bg-color {
   background-color: #5861d3;
+}
+
+.holidays-font,
+.header-button-font {
+  font-family: 'Skia-Regular_Black';
 }
 </style>
