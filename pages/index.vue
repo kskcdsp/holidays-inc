@@ -1,12 +1,12 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
+      <img src="~/assets/logo.png">
       <h1 class="title">
-        holidays
+        Holidays Inc.
       </h1>
       <h2 class="subtitle">
-        portfolio
+        Arthur's Portfolio
       </h2>
       <div class="links">
         <a
@@ -33,7 +33,6 @@ export default {
 </script>
 
 <style>
-
 .container {
   min-height: 100vh;
   display: flex;
@@ -47,7 +46,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 60px;
   color: #35495e;
   letter-spacing: 1px;
 }
