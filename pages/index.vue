@@ -5,7 +5,7 @@
       <h1 class="title has-text-purple">
         Holidays Inc.
       </h1>
-      <h2 class="subtitle">
+      <h2 class="subtitle index-subtitle-potision">
         Arthur's Portfolio
       </h2>
       <div class="column">
@@ -108,5 +108,28 @@ export default {
 
 .has-text-purple {
   color: #5861d3;
+}
+
+.box:not(:last-child),
+.content:not(:last-child),
+.notification:not(:last-child),
+.progress:not(:last-child),
+.table:not(:last-child),
+.table-container:not(:last-child),
+.title:not(:last-child),
+.subtitle:not(:last-child),
+.block:not(:last-child),
+.highlight:not(:last-child),
+.breadcrumb:not(:last-child),
+.level:not(:last-child),
+.list:not(:last-child),
+.message:not(:last-child),
+.tabs:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.index-subtitle-potision {
+  position: relative;
+  top: 1rem;
 }
 </style>

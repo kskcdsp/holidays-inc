@@ -50,7 +50,8 @@
                   </nuxt-link>
                   <a
                     href="http://organics-life.com"
-                    class="header-button-font">
+                    class="header-button-font"
+                    target="”_blank”">
                     <font size="3"><b class="button has-text-white is-purple">Blog</b></font>
                   </a>
                   <a

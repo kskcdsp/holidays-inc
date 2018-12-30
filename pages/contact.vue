@@ -21,15 +21,43 @@
               <a
                 href="https://twitter.com/arthur_foreign"
                 target="”_blank”"
-                class="title is-4">Arthur</a>
+                class="title is-5 japanese-font-family">アーサー@外資系企業の中の人。</a>
               <a
                 href="https://twitter.com/arthur_foreign"
                 target="”_blank”"
-                class="subtitle is-6 at-twitter-link">@arthur_foreign</a>
+                class="subtitle is-6 at-twitter-link twitter-position-bottom">@arthur_foreign</a>
+              <div class="content">
+                <p class="japanese-font-family twitter-text-position-bottom">
+                  僕はTwitter・ブログ・GitHubで情報発信しています。ボタンをクリックすると見たいページに飛ぶことが出来ます。
+                </p>
+                <div class="buttons">
+                  <a
+                    class="button is-purple card-footer-item"
+                    href="https://twitter.com/arthur_foreign"
+                    target="”_blank”">
+                    <span class="icon">
+                      <i class="fa fa-twitter has-text-white"/>
+                    </span>
+                    <span class="has-text-white holidays-font">Twitter</span>
+                  </a>
+                  <a
+                    class="header-button-font card-footer-item"
+                    href="http://organics-life.com">
+                    <font size="3"><b class="button has-text-white is-purple">Blog</b></font>
+                  </a>
+                  <a
+                    class="button is-purple card-footer-item"
+                    href="https://github.com/kskcdsp"
+                    target="”_blank”">
+                    <span class="icon">
+                      <i class="fa fa-github has-text-white"/>
+                    </span>
+                    <span class="has-text-white holidays-font">GitHub</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="content"/>
         </div>
       </div>
     </div>
@@ -83,7 +111,7 @@
 }
 
 .card-footer-item:not(:last-child) {
-  border-right: 1px solid #5861d3;
+  border-right: 0px;
 }
 
 .japanese-font-family {
@@ -126,6 +154,16 @@
 }
 
 .twitter-card-position {
+  position: relative;
+  top: 1rem;
+}
+
+.twitter-position-bottom {
+  position: relative;
+  top: 0.5rem;
+}
+
+.twitter-text-position-bottom {
   position: relative;
   top: 1rem;
 }
