@@ -1,11 +1,17 @@
 <template>
   <section class="container is-center">
     <div class="index-wrap">
+      <h1 class="title has-text-purple">
+        Holidays Inc.
+      </h1>
+      <h2 class="subtitle">
+        Contact Page
+      </h2>
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
             <img
-              src="https://bulma.io/images/placeholders/1280x960.png"
+              src="~/assets/1.png"
               alt="Placeholder image">
           </figure>
         </div>
@@ -45,11 +51,6 @@
   font-family: 'Skia-Regular_Black';
 }
 
-.index-wrap {
-  position: relative;
-  top: 7rem;
-}
-
 .title {
   display: block;
   font-weight: 300;
@@ -65,9 +66,31 @@
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-.card-header-title {
+
+.index-wrap {
   position: relative;
-  left: 25%;
+  top: 7rem;
+}
+
+.card {
+  width: 25rem;
+  box-shadow: 0 2px 3px #5861d3, 0 0 0 1px #5861d3;
+}
+
+.is-4by3 {
+  border-bottom: 0.5px solid #5861d3;
+}
+
+.card-header {
+  box-shadow: 0 1px 2px #5861d3;
+}
+
+.card-footer {
+  border-top: 1px solid #5861d3;
+}
+
+.card-footer-item:not(:last-child) {
+  border-right: 1px solid #5861d3;
 }
 
 .japanese-font-family {
