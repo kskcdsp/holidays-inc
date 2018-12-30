@@ -19,6 +19,10 @@ module.exports = {
         rel: 'stylesheet',
         href:
           'http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        src: '~/assets/css/main.css'
       }
     ],
     script: [
@@ -37,7 +41,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [],
+  css: ['@/assets/css/main.css'],
 
   /*
   ** Plugins to load before mounting the App

@@ -1,0 +1,18 @@
+.container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Skia-Regular_Black';
+}
+
+.is-center {
+  text-align: center !important;
+}
+
+.has-text-purple {
+  color: #5861d3;
+}
+
+.is-purple {
+  background-color: #5861d3;
+}
