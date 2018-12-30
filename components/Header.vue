@@ -43,7 +43,7 @@
                     <font size="3"><b class="button has-text-white is-purple header-button-font">Profile</b></font>
                   </nuxt-link>
                   <div>
-                    &nbsp;
+                    &nbsp;&nbsp;
                   </div>
                   <nuxt-link
                     to="/contact"
@@ -51,25 +51,25 @@
                     <font size="3"><b class="button has-text-white is-purple">Contact</b></font>
                   </nuxt-link>
                   <div>
-                    &nbsp;
+                    &nbsp;&nbsp;
                   </div>
                   <a
-                    class="button"
-                    href="https://github.com/kskcdsp"
-                    target="”_blank”">
-                    <span class="icon">
-                      <i class="fa fa-github"/>
-                    </span>
-                    <span>GitHub</span>
-                  </a>
-                  <a
-                    class="button is-primary"
+                    class="button is-purple"
                     href="https://twitter.com/arthur_foreign"
                     target="”_blank”">
                     <span class="icon">
-                      <i class="fa fa-twitter"/>
+                      <i class="fa fa-twitter has-text-white"/>
                     </span>
-                    <span>Twitter</span>
+                    <span class="has-text-white holidays-font">Twitter</span>
+                  </a>
+                  <a
+                    class="button is-purple"
+                    href="https://github.com/kskcdsp"
+                    target="”_blank”">
+                    <span class="icon">
+                      <i class="fa fa-github has-text-white"/>
+                    </span>
+                    <span class="has-text-white holidays-font">GitHub</span>
                   </a>
                 </div>
               </div>
