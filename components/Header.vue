@@ -55,17 +55,19 @@
                   </div>
                   <a
                     class="button"
-                    href="https://github.com/kskcdsp">
+                    href="https://github.com/kskcdsp"
+                    target="”_blank”">
                     <span class="icon">
-                      <i class="fab fa-github"/>
+                      <i class="fa fa-github"/>
                     </span>
                     <span>GitHub</span>
                   </a>
                   <a
                     class="button is-primary"
-                    href="https://twitter.com/arthur_foreign">
+                    href="https://twitter.com/arthur_foreign"
+                    target="”_blank”">
                     <span class="icon">
-                      <i class="fab fa-twitter"/>
+                      <i class="fa fa-twitter"/>
                     </span>
                     <span>Twitter</span>
                   </a>
@@ -94,12 +96,10 @@ export default {
   }
 }
 </script>
-
 <style>
 .is-purple {
   background-color: #5861d3;
 }
-
 .holidays-font,
 .header-button-font {
   font-family: 'Skia-Regular_Black';
