@@ -106,7 +106,7 @@ export default {
   font-family: 'Skia-Regular_Black';
 }
 
-.buttons .button:not(:last-child):not(.is-fullwidth) {
-  margin-right: 0;
+.button {
+  margin-right: 0.5rem;
 }
 </style>
