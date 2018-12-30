@@ -1,36 +1,57 @@
 <template>
-  <section class="hero is-medium header-bg-color">
+  <section class="hero is-medium is-purple">
     <div class="hero-head">
-      <nav class="navbar">
-        <div class="container">
+      <nav
+        class="navbar"
+        role="navigation"
+        aria-label="main navigation">
+        <div
+          id="navbarToggleMenu"
+          class="container">
           <div class="navbar-brand">
-            <div class="columns is-mobile">
-              <div class="column is-6 is-mobile"/>
-              <nuxt-link
-                to="/"
-                class="navbar-item has-text-white">
-                <!-- v-ifでモバイル・タブレット画面になったら中央寄せ -->
-                <font size="5"><b
-                  class="holidays-font is-vcentered">Holidays Inc.</b>
-                </font>
-              </nuxt-link>
-            </div>
+            <nuxt-link
+              to="/"
+              class="navbar-item has-text-white">
+              <font size="5"><b
+                class="holidays-font">Holidays Inc.</b>
+              </font>
+            </nuxt-link>
+            <a
+              :class="{'is-active': isActive}"
+              role="button"
+              class="navbar-burger burger has-text-white"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+              @click="openAndClose">
+              <span aria-hidden="true"/>
+              <span aria-hidden="true"/>
+              <span aria-hidden="true"/>
+            </a>
           </div>
+
           <div
-            id="navbarMenuHeroA"
+            id="navbarBasicExample"
+            :class="{'is-active': isActive}"
             class="navbar-menu">
+            <div class="navbar-start"/>
             <div class="navbar-end">
-              <!-- v-ifでモバイル・タブレット画面になったらハンバーガーメニュー -->
-              <nuxt-link
-                to="/profile"
-                class="navbar-item">
-                <font size="4"><b class="button is-outlined is-white has-text-white header-button-font">Profile</b></font>
-              </nuxt-link>
-              <nuxt-link
-                to="/contact"
-                class="navbar-item has-text-white header-button-font">
-                <font size="4"><b class="button is-outlined is-white">Contact</b></font>
-              </nuxt-link>
+              <div class="navbar-item">
+                <div class="buttons">
+                  <nuxt-link
+                    to="/profile">
+                    <font size="3"><b class="button has-text-white is-purple header-button-font">Profile</b></font>
+                  </nuxt-link>
+                  <div>
+                    &nbsp;
+                  </div>
+                  <nuxt-link
+                    to="/contact"
+                    class="header-button-font">
+                    <font size="3"><b class="button has-text-white is-purple">Contact</b></font>
+                  </nuxt-link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -38,9 +59,25 @@
     </div>
   </section>
 </template>
+<script>
+import Vue from 'vue'
+export default {
+  el: 'navbarToggleMenu',
+  data: function() {
+    return {
+      isActive: false
+    }
+  },
+  methods: {
+    openAndClose: function() {
+      this.isActive = !this.isActive
+    }
+  }
+}
+</script>
 
 <style>
-.header-bg-color {
+.is-purple {
   background-color: #5861d3;
 }
 

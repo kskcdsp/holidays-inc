@@ -14,8 +14,14 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [{ src: 'https://cdn.jsdelivr.net/npm/vue' }]
+    script: [
+      { src: 'https://cdn.jsdelivr.net/npm/vue' },
+      {
+        src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'
+      }
+    ]
   },
+
 
   /*
   ** Customize the progress-bar color
