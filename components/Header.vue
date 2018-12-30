@@ -50,6 +50,25 @@
                     class="header-button-font">
                     <font size="3"><b class="button has-text-white is-purple">Contact</b></font>
                   </nuxt-link>
+                  <div>
+                    &nbsp;
+                  </div>
+                  <a
+                    class="button"
+                    href="https://github.com/kskcdsp">
+                    <span class="icon">
+                      <i class="fab fa-github"/>
+                    </span>
+                    <span>GitHub</span>
+                  </a>
+                  <a
+                    class="button is-primary"
+                    href="https://twitter.com/arthur_foreign">
+                    <span class="icon">
+                      <i class="fab fa-twitter"/>
+                    </span>
+                    <span>Twitter</span>
+                  </a>
                 </div>
               </div>
             </div>
