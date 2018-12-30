@@ -5,7 +5,7 @@
       <h1 class="title has-text-purple">
         Holidays Inc.
       </h1>
-      <h2 class="subtitle subtitle-position">
+      <h2 class="subtitle">
         Arthur's Portfolio
       </h2>
       <div class="column">

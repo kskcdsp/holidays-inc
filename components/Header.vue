@@ -43,17 +43,16 @@
                     to="/profile">
                     <font size="3"><b class="button has-text-white is-purple header-button-font">Profile</b></font>
                   </nuxt-link>
-                  <div>
-                    &nbsp;&nbsp;
-                  </div>
                   <nuxt-link
                     to="/contact"
                     class="header-button-font">
                     <font size="3"><b class="button has-text-white is-purple">Contact</b></font>
                   </nuxt-link>
-                  <div>
-                    &nbsp;&nbsp;
-                  </div>
+                  <a
+                    href="http://organics-life.com"
+                    class="header-button-font">
+                    <font size="3"><b class="button has-text-white is-purple">Blog</b></font>
+                  </a>
                   <a
                     class="button is-purple"
                     href="https://twitter.com/arthur_foreign"
@@ -63,6 +62,7 @@
                     </span>
                     <span class="has-text-white holidays-font">Twitter</span>
                   </a>
+
                   <a
                     class="button is-purple"
                     href="https://github.com/kskcdsp"
@@ -104,5 +104,9 @@ export default {
 .holidays-font,
 .header-button-font {
   font-family: 'Skia-Regular_Black';
+}
+
+.buttons .button:not(:last-child):not(.is-fullwidth) {
+  margin-right: 0;
 }
 </style>
