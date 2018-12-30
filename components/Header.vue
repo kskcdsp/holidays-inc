@@ -12,6 +12,7 @@
             <nuxt-link
               to="/"
               class="navbar-item has-text-white">
+              <img src="~/assets/pen-header-logo.png">
               <font size="5"><b
                 class="holidays-font">Holidays Inc.</b>
               </font>
