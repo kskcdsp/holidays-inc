@@ -11,7 +11,7 @@
       <div class="column">
         <div class="card">
           <header class="card-header">
-            <p class="card-header-title has-text-purple">
+            <p class="card-header-title">
               Check My Portfolio
             </p>
           </header>
@@ -75,6 +75,22 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+
+.card {
+  box-shadow: 0 2px 3px #5861d3, 0 0 0 1px #5861d3;
+}
+
+.card-header {
+  box-shadow: 0 1px 2px #5861d3;
+}
+
+.card-footer {
+  border-top: 1px solid #5861d3;
+}
+
+.card-footer-item:not(:last-child) {
+  border-right: 1px solid #5861d3;
 }
 
 .card-header-title {
