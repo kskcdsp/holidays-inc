@@ -25,8 +25,14 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">John Smith</p>
-              <p class="subtitle is-6">@johnsmith</p>
+              <a
+                href="https://twitter.com/arthur_foreign"
+                target="”_blank”"
+                class="title is-4">Arthur</a>
+              <a
+                href="https://twitter.com/arthur_foreign"
+                target="”_blank”"
+                class="subtitle is-6 at-twitter-link">@arthur_foreign</a>
             </div>
           </div>
 
@@ -103,5 +109,27 @@
 
 .has-text-purple {
   color: #5861d3;
+}
+
+.at-twitter-link {
+  color: #1c94e0;
+}
+
+.box:not(:last-child),
+.content:not(:last-child),
+.notification:not(:last-child),
+.progress:not(:last-child),
+.table:not(:last-child),
+.table-container:not(:last-child),
+.title:not(:last-child),
+.subtitle:not(:last-child),
+.block:not(:last-child),
+.highlight:not(:last-child),
+.breadcrumb:not(:last-child),
+.level:not(:last-child),
+.list:not(:last-child),
+.message:not(:last-child),
+.tabs:not(:last-child) {
+  margin-bottom: 0px;
 }
 </style>
