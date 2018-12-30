@@ -1,7 +1,6 @@
 <template>
   <section class="container is-center">
     <div class="index-wrap">
-      <img src="~/assets/logo.png">
       <h1 class="title has-text-purple">
         Holidays Inc.
       </h1>
@@ -19,9 +18,9 @@
             <div class="content japanese-font-family">
               アーサー@外資系企業の中の人です。
               <br>
-              ポートフォリオを作りました。
+              ポートフォリオを作りましたので、良かったら見てみてください。
               <br>
-              良かったら見てみてください。
+              自己紹介とお問い合わせのページを用意しました。
             </div>
           </div>
           <footer class="card-footer">
@@ -78,6 +77,7 @@ export default {
 }
 
 .card {
+  width: 25rem;
   box-shadow: 0 2px 3px #5861d3, 0 0 0 1px #5861d3;
 }
 
@@ -131,5 +131,8 @@ export default {
 .index-subtitle-potision {
   position: relative;
   top: 1rem;
+}
+
+.holidays-logo-circle {
 }
 </style>
