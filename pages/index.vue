@@ -2,10 +2,10 @@
   <section class="container is-center">
     <div class="index-wrap">
       <img src="~/assets/logo.png">
-      <h1 class="title has-text-purple holidays-logo-position">
+      <h1 class="title has-text-purple">
         Holidays Inc.
       </h1>
-      <h2 class="subtitle">
+      <h2 class="subtitle subtitle-position">
         Arthur's Portfolio
       </h2>
       <div class="column">
@@ -49,10 +49,6 @@ export default {
 </script>
 
 <style>
-.holidays-logo-position {
-  margin-bottom: 3rem;
-}
-
 .container {
   min-height: 80vh;
   display: flex;

@@ -4,10 +4,10 @@
       <h1 class="title has-text-purple">
         Holidays Inc.
       </h1>
-      <h2 class="subtitle">
+      <h2 class="subtitle contact-holidays-logo-position">
         Contact Page
       </h2>
-      <div class="card">
+      <div class="card twitter-card-position">
         <div class="card-image">
           <figure class="image is-4by3">
             <img
@@ -125,5 +125,15 @@
 .message:not(:last-child),
 .tabs:not(:last-child) {
   margin-bottom: 0px;
+}
+
+.contact-holidays-logo-position {
+  position: relative;
+  top: 1rem;
+}
+
+.twitter-card-position {
+  position: relative;
+  top: 1rem;
 }
 </style>
