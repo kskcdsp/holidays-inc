@@ -1,22 +1,38 @@
 <template>
-  <section class="container">
-    <div>
+  <section class="container is-center">
+    <div class="index-wrap">
       <img src="~/assets/logo.png">
-      <h1 class="title">
+      <h1 class="title has-text-purple">
         Holidays Inc.
       </h1>
       <h2 class="subtitle">
         Arthur's Portfolio
       </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+      <div class="column">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title has-text-purple">
+              Check My Portfolio
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="content japanese-font-family">
+              アーサー@外資系企業の中の人です。
+              <br>
+              ポートフォリオを作りました。
+              <br>
+              良かったら見てみてください。
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a
+              href="/profile"
+              class="card-footer-item has-text-purple">Profile</a>
+            <a
+              href="/contact"
+              class="card-footer-item has-text-purple">Contact</a>
+          </footer>
+        </div>
       </div>
     </div>
   </section>
@@ -34,16 +50,18 @@ export default {
 
 <style>
 .container {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  font-family: 'Skia-Regular_Black';
+}
+
+.index-wrap {
+  position: relative;
+  top: 7rem;
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 60px;
@@ -59,7 +77,20 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
+.card-header-title {
+  position: relative;
+  left: 25%;
+}
+
+.japanese-font-family {
+  font-family: 'ヒラギノ角ゴ StdN', 'Hiragino Kaku Gothic StdN', sans-serif;
+}
+
+.is-center {
+  text-align: center !important;
+}
+
+.has-text-purple {
+  color: #5861d3;
 }
 </style>
