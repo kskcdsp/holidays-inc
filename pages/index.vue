@@ -18,9 +18,20 @@
             <div class="content japanese-font-family">
               アーサー@外資系企業の中の人です。
               <br>
-              ポートフォリオを作りましたので、良かったら見てみてください。
               <br>
-              自己紹介とお問い合わせのページを用意しました。
+              Nuxt.jsとVue.jsを使って、会社のPR & 自分のポートフォリオを作ってみました。
+              <br>
+              <br>
+              <span class="has-text-purple">Holidays Inc.</span>は僕の会社の名前ですね。
+              <br>
+              <br>
+              「<span class="has-text-purple">毎日が休日のように楽しい会社</span>」を目指したいなと思ったので、何となくそんな感じの名前になりました。(思考時間5秒)
+              <br>
+              <br>
+              会社名から分かるように「起業！」「成長！」「増収増益！」とか鼻息荒く開業してません。
+              <br>
+              <br>
+              ただの趣味&節税です。
             </div>
           </div>
           <footer class="card-footer">
@@ -133,6 +144,7 @@ export default {
   top: 1rem;
 }
 
-.holidays-logo-circle {
+.card-content {
+  text-align: left !important;
 }
 </style>
