@@ -2,7 +2,7 @@ const pkg = require('./package')
 
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/holidays-inc/'
+    base: '/holidays-inc.github.io/'
   }
 } : {}
 
