@@ -59,7 +59,7 @@
                     href="https://twitter.com/arthur_foreign"
                     target="”_blank”">
                     <span class="icon">
-                      <i class="fa fa-twitter has-text-white"/>
+                      <i class="fab fa-twitter has-text-white"/>
                     </span>
                     <span class="has-text-white holidays-font">Twitter</span>
                   </a>
@@ -69,7 +69,7 @@
                     href="https://github.com/kskcdsp"
                     target="”_blank”">
                     <span class="icon">
-                      <i class="fa fa-github has-text-white"/>
+                      <i class="fab fa-github has-text-white"/>
                     </span>
                     <span class="has-text-white holidays-font">GitHub</span>
                   </a>
