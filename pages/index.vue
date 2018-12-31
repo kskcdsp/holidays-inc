@@ -68,13 +68,13 @@ export default {
 
 .index-wrap {
   position: relative;
-  top: 7rem;
+  top: 5rem;
 }
 
 .title {
   display: block;
   font-weight: 300;
-  font-size: 60px;
+  font-size: 50px;
   color: #35495e;
   letter-spacing: 1px;
 }
@@ -88,7 +88,7 @@ export default {
 }
 
 .card {
-  width: 25rem;
+  width: 22rem;
   box-shadow: 0 2px 3px #5861d3, 0 0 0 1px #5861d3;
 }
 
