@@ -1,10 +1,14 @@
 const pkg = require('./package')
 
-module.exports = {
-  mode: 'spa',
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/holidays/'
   }
+} : {}
+
+
+module.exports = {
+  mode: 'spa',
   /*
   ** Headers of the page
   */
