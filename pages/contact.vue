@@ -4,7 +4,7 @@
       <h1 class="title has-text-purple">
         Holidays Inc.
       </h1>
-      <h2 class="subtitle contact-holidays-logo-position">
+      <h2 class="subtitle holidays-logo-position">
         Contact Page
       </h2>
       <div class="card twitter-card-position">
@@ -148,7 +148,7 @@
   margin-bottom: 0px;
 }
 
-.contact-holidays-logo-position {
+.holidays-logo-position {
   position: relative;
   top: 1rem;
 }

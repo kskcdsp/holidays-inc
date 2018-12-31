@@ -16,7 +16,7 @@
           </header>
           <div class="card-content">
             <div class="content japanese-font-family">
-              アーサー@外資系企業の中の人です。
+              アーサー@外資系企業の中の人。です。
               <br>
               <br>
               Nuxt.jsとVue.jsを使って、会社のPR & 自分のポートフォリオを作ってみました。
