@@ -2,7 +2,9 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'spa',
-
+  router: {
+    base: '/holidays/'
+  }
   /*
   ** Headers of the page
   */
